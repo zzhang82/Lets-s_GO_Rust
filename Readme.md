@@ -4,13 +4,21 @@ One Step at a time
 
 ## Installation
 
-'''bash
+```bash
 $ sudo apt-get install curl  [On Debian/Ubuntu]
 $ yum install install curl   [On CentOS/RHEL]
 $ dnf install curl           [On Fedora]
-'''
+```
 
-'''bash
+```bash
 $ curl https://sh.rustup.rs -sSf | sh
-'''
+```
+
+Cargo Cli:
+```bash
+Cargo new $foldername --bin
+```
+After installed this, you can simplely use cargo run to compile the code. :)
+
+
 
